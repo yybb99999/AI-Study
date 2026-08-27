@@ -1,0 +1,25 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment
+.env
+
+# Model / training outputs
+models/
+outputs/
+checkpoints/
+*.bin
+*.safetensors
+
+# Dataset
+data/*
+!data/.gitkeep
